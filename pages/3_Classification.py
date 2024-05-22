@@ -14,7 +14,7 @@ def load_model(model_path):
 
 # Construct the file path to the ResNet101 model
 base_dir = os.path.dirname(__file__)  # Get the directory of the current script
-model_path = os.path.join(base_dir, "multipage_app", "ResNet101_model.pkl")
+model_path = os.path.join(base_dir, "multipage_app", "best_weightsvgg.h5")
 
 # Custom CSS for the layout
 custom_css = """
