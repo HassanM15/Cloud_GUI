@@ -16,8 +16,7 @@ def load_image(image_path):
         return base64.b64encode(image_file.read()).decode()
 
 # Load image and convert to base64
-image_path = "Cloud_GUI//assets//fb118e148378c52027364cb47e9f67b0-removebg-preview.png"
-image_base64 = load_image(image_path)
+
 
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
